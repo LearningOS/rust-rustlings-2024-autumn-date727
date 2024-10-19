@@ -29,7 +29,7 @@ impl Package {
         }
     }
 
-    fn is_international(&self) -> ??? {
+    fn is_international(&self) -> Package  {
         // Something goes here...
     }
 
