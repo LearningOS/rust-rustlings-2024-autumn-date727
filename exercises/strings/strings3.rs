@@ -4,9 +4,10 @@
 // hint.
 
 
+
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
-    input.truncate(6);
+    input.trim();
     input.to_owned()
 }
 
